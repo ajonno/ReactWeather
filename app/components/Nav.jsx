@@ -1,8 +1,11 @@
 var React = require('react');
 var {Link, IndexLink} = require('react-router');
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 var Nav = React.createClass({
-
+    componentDidMount: function() {
+        //injectTapEventPlugin();
+    },
     onSearch: function(e){
         e.preventDefault();
         alert('not wired up');
