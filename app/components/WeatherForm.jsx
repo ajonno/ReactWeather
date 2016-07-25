@@ -33,7 +33,6 @@ var WeatherForm = React.createClass({
                     <form onSubmit={this.onFormSubmit}>
                         <input type="text" ref="location"/>
                         <button className="button expanded">Get Weather</button>
-                        <RaisedButton label="Get Weather" primary={true} fullWidth={true} />
                     </form>
                 </div>
            </MuiThemeProvider>
